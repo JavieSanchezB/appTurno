@@ -1,0 +1,13 @@
+/* Estilos generales aquí, si es necesario */
+
+/* Estilo para resaltar el número seleccionado */
+.number-button {
+    background-color: white;
+    color: black;
+}
+
+.number-button.selected {
+    background-color: red !important;
+    color: white !important;
+    pointer-events: none; /* Deshabilita la interacción con el botón */
+}
